@@ -9,7 +9,7 @@ import in.shuvam.entity.Country;
 
 @RestController
 public class WeatherController {
-	final String appid="&appid=60ff43391e4de49f0d30bc665b0c1db1";
+	final String appid="$yourapiid";
 	final static String uri="http://api.openweathermap.org/data/2.5/weather?q=";
 	@GetMapping("/getWeather/{name}")
 	public String getWetaher(@PathVariable String name) {
